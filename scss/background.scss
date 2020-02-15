@@ -1,23 +1,44 @@
 .bg-image1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    background: url('http://www.sanmartinescrow.com/wp-content/uploads/2016/10/website-design-background.png') center center no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: url('img/background.png') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0 2em;
     
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-      opacity: .6; 
-    }
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #373b44, #4286f4);
+    opacity: .6; 
+  }
 }
+#name{
+  color: black;
+  font-size: 4rem;
+  font-family: 'Pacifico', cursive;
+}
+#info{
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Acme', sans-serif;
+}
+// tab education
+#tab-education{
+  background-color: #12c2e9;
+}
+// .edu-photo{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   width: 25%;
+//   height: 25%;
+// }

@@ -14,7 +14,7 @@
           align-items: center;
   height: 100vh;
   position: relative;
-  background: url("http://www.sanmartinescrow.com/wp-content/uploads/2016/10/website-design-background.png") center center no-repeat;
+  background: url("img/background.png") center center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 0 2em;
@@ -27,8 +27,24 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background-image: -webkit-gradient(linear, left top, right top, from(#373b44), to(#4286f4));
+  background-image: linear-gradient(to right, #373b44, #4286f4);
   opacity: .6;
+}
+
+#name {
+  color: black;
+  font-size: 4rem;
+  font-family: 'Pacifico', cursive;
+}
+
+#info {
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Acme', sans-serif;
+}
+
+#tab-education {
+  background-color: #12c2e9;
 }
 /*# sourceMappingURL=background.css.map */

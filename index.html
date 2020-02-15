@@ -6,32 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>Luan Tran's Website</title>
     <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/bg_slide_2.css">
     <link rel="stylesheet" href="css/naviBar.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- Hero -->
     <div class="bg-image1">
-      <h1>Luan Minh Tran</h1>
-      <h3>A computer engineer with ultimate passion in programming</h3>
+      <h1 id="name"><strong>Luan Minh Tran</strong></h1>
+      <h3 id="info"><strong>A computer engineer with ultimate passion in programming</strong></h3>
     </div>
     <section class="et-hero-tabs">
       <div class="et-hero-tabs-container">
-        <a class="et-hero-tab" href="#tab-profile">Profile</a>
-        <a class="et-hero-tab" href="#tab-skills">Skills</a>
-        <a class="et-hero-tab" href="#tab-projects">Projects</a>
-        <a class="et-hero-tab" href="#tab-education">Education</a>
-        <a class="et-hero-tab" href="#tab-contacts">Contacts</a>
+        <a class="et-hero-tab" href="#tab-education"><strong>Education</strong></a>
+        <a class="et-hero-tab" href="#tab-skills"><strong>Skills</strong></a>
+        <a class="et-hero-tab" href="#tab-projects"><strong>Projects</strong></a>
+        <a class="et-hero-tab" href="#tab-fun"><strong>Fun</strong></a>
+        <a class="et-hero-tab" href="#tab-contact"><strong>Contact</strong></a>
         <span class="et-hero-tab-slider"></span>
       </div>
     </section>
   
   <!-- Main -->
-  <!-- <main class="et-main"> -->
-    <section class="et-slide" id="tab-profile">
-      <h1>My Profile</h1>
-      <h3>Profile</h3>
+    <section class="et-slide" id="tab-education">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-8 col-xs-8 mx-auto text-center mb-4">
+                <h2 class="section-heading text-white">Education</h2>
+                <hr class="light my-4">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+                <i class="fa fa-4x fa-id-card-o text-faded sr-icons"></i>
+                <h3 class="text-white">Degree</h3>
+                <p class="text-faded">Bachelor of Science in Computer Engineering from
+                <a class="text-white-link" href="https://newbrunswick.rutgers.edu/" class="text-blue">Rutgers-The State University of New Jersey</a></p>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center div-padding-fix mb-4">
+                <i class="fa fa-4x fa-graduation-cap text-faded sr-icons"></i>
+                <h3 class="text-white">Graduation</h3>
+                <p class="text-faded">May 2021 (Cumulative GPA: 3.5 )</p>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+                <i class="fa fa-4x fa-code text-faded sr-icons"></i>
+                <h3 class="text-white">Languages</h3>
+                <p class="text-faded no-margin">JavaScript, Java</p>
+                <p class="text-faded">Python, and C/C++</p>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 col-sm-6 text-center mb-4">
+                <i class="fa fa-4x fa-file-code-o text-faded sr-icons"></i>
+                <h3 class="text-white">Skills</h3>
+                <p class="text-faded no-margin">Android, HTML5, CSS</p>
+                <p class="text-faded">SASS/SCSS, Bootstrap, JQuery</p>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <img class="edu-photo"src="https://images.youracclaim.com/images/6ade91f1-d8c1-4fae-bcf2-fbf6acf0012c/blob.png" alt="This image was deleted">
+              <img class="edu-photo"src="css/img/myImage.jpg" alt="This image was deleted">
+            </div> -->
+          </div>
     </section>
     <section class="et-slide" id="tab-skills">
       <h1>My Skills</h1>
@@ -41,17 +81,17 @@
       <h1>My Projects</h1>
       <h3>Projects</h3>
     </section>
-    <section class="et-slide" id="tab-education">
-      <h1>My Education</h1>
-      <h3>Education</h3>
+    <section class="et-slide" id="tab-fun">
+      <h1>Fun</h1>
+      <h3>My fun</h3>
     </section>
-    <section class="et-slide" id="tab-contacts">
-      <h1>My Contacts</h1>
-      <h3>Contacts</h3>
+    <section class="et-slide" id="tab-contact">
+      <h1>My Contact</h1>
+      <h3>Contact</h3>
     </section>
-  <!-- </main> -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/naviBar.js"></script>
+<script src="js/bg_slide_2.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
