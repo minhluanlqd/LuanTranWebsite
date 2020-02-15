@@ -6,7 +6,6 @@ a {
   text-decoration: none;
 }
 
-.et-hero-tabs,
 .et-slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,14 +27,12 @@ a {
   padding: 0 2em;
 }
 
-.et-hero-tabs h1,
 .et-slide h1 {
   font-size: 2rem;
   margin: 0;
   letter-spacing: 1rem;
 }
 
-.et-hero-tabs h3,
 .et-slide h3 {
   font-size: 1rem;
   letter-spacing: 0.3rem;
